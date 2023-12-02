@@ -15,8 +15,8 @@ public class Mage extends Character{
     public void skill(){
         if(!skillok && hp != 0){
             System.out.println(name + " uses a skill: Enlightenment From The Future: Mana -20");
-            skillok = true;
             mana -= 20;
+            skillok = true;
         }
         else System.out.println(name + " has already used this skill or died");
     }
