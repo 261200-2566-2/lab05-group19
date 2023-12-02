@@ -37,4 +37,12 @@ public class Helmet implements Head{
         System.out.println("Now " + name + "'s levels is " + level);      
     }
     
+    @Override
+    public void checkType(){
+       System.out.println("This Head type is Helmet");
+    }
+
+    public void checkHelmetBonus(){
+        System.out.println("This Helmet give "+ this.defBonus +" DefenseBonus");
+    }
 }

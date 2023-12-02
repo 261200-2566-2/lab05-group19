@@ -32,5 +32,14 @@ public class Mask implements Head{
         this.atkBonus = this.atkBonus*(1+0.05*level);
         System.out.println("Now " + name + "'s levels is " + level);   
     }
+
+    @Override
+    public void checkType(){
+       System.out.println("This Head type is Mask");
+    }
+
+    public void checkMaskBonus(){
+        System.out.println("This Mask give "+ this.atkBonus+ " AttackBonus");
+    }
     
 }
